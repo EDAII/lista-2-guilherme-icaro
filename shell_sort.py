@@ -1,7 +1,5 @@
 import random
 import time
-import random 
-import time
 
 def shell_sort(array):
     h = len(array) // 2
@@ -21,6 +19,8 @@ def shell_sort(array):
             i += 1
         h = h // 2
         a += 1
+
+    return array
 
 # i = 0
 # while i < 5:
